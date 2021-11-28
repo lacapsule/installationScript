@@ -19,18 +19,20 @@ case $OS in
   'Linux')
     OS='Linuxmint'
     ;;
-  'FreeBSD')
-    OS='FreeBSD'
-    alias capsule='cd / ; ~/.lacapsule/./logiciel.sh'
+  'Arch')
+    OS='Arch'
     ;;
-  'WindowsNT')
-    OS='Windows'
+  'Debian')
+    OS='Debian'
     ;;
-  'Darwin') 
-    OS='Mac'
+  'MacOS') 
+    OS='MacOS'
     ;;
   'SunOS')
     OS='Solaris'
+    ;;
+  'Kali')
+    OS='Kali'
     ;;
   'AIX') ;;
   *) ;;

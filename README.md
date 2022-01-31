@@ -9,6 +9,13 @@ sudo chmod +x install_lacapsule.sh
 
 </code></pre><br><br>
 
+Une fois les droits obtenus, éxécuter le script : 
+
+<pre><code>
+./install_lacapsule.sh
+
+</code></pre><br><br>
+
  𝟭- **𝖯𝗋𝗈𝗃𝖾𝗍 𝖽𝖾 𝗅𝗈𝗀𝗂𝖼𝗂𝖾𝗅 𝖽é𝖽𝗂é à 𝗅𝖺 𝖽𝗂𝗌𝗍𝗋𝗂𝖻𝗎𝗍𝗂𝗈𝗇 𝖦𝖮𝖴𝖯𝖨𝖫 𝖻𝖺𝗌é𝖾 𝗌𝗎𝗋 𝖫𝗂𝗇𝗎𝗑 𝖬𝗂𝗇𝗍**  --> https://github.com/lacapsule/lacapsule <br><br> 
 
 

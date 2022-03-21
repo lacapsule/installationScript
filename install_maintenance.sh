@@ -81,7 +81,7 @@ checkdir() {
     echo ""
     echo "$(tput setaf 0)$(tput setab 9)  Veuillez entrer votre mot de passe :  $(tput sgr0)"
     echo "" 
-    cd /home/$USER && apt update;  apt install git; git clone https://github.com/lacapsule/Maintenance
+    cd /home/$USER && apt update; sudo apt install git; sudo git clone https://github.com/lacapsule/Maintenance
     fi
 
 checkdir
@@ -98,7 +98,7 @@ if [ -f $file ]; then
 		sleep 1.5
 		echo ""  
     cd /home/$USER/ && chmod +x -R Maintenance &&
-    /home/$USER/lacapsule/./logiciel.sh
+    /home/$USER/Maintenance/./logiciel.sh
     sleep 3
 else 
     echo ""
